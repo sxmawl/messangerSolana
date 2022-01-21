@@ -1,0 +1,12 @@
+[programs.localnet]
+messengerapp = "BNHNkMabKTRZ1dzcNkgUFaSyUtpxUmzAg8Xnxhzj5rQM"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/apple/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
